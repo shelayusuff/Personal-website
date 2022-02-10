@@ -1,0 +1,83 @@
+*    {
+        box-sizing: border-box;
+     }
+
+body 
+     {
+        background-color: #E89C8C;
+        font-family:'Kristen ITC', cursive;, sans-serif;
+        margin: 0;
+     }
+ 
+.header 
+     {
+        padding: 30px;
+        text-align: center;
+        background: #A44B38;
+        color: white;
+     }
+
+.header h1 
+     {
+        font-size: 50px;
+     }
+ 
+.navbar 
+     {
+        overflow: left;
+        background-color: #AC2D12;
+        display: flex;
+     }
+
+.navbar a 
+     {
+        flex: 100%;
+        color: black;
+        text-align: center;
+        padding:10px;
+        text-decoration: none;
+     }
+
+.row 
+     {  
+        display: flex;
+     }
+ 
+.main 
+     {   
+        flex: 70%;
+        background-color: #A44B38;
+        padding: 20px;
+     }
+
+.side 
+     {
+        flex: 30%;
+        background-color: #B26A5B;
+        padding: 20px;
+     }
+
+table, th  
+     {
+        border: 1px Segoe Script;
+     }
+
+td
+     {
+       border: 1px solid black;
+       text-align: center; 
+       font-family: Comic Sans MS;
+     }
+
+.map
+     {
+        flex:1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+     }
+
+
+
+
+
+     
